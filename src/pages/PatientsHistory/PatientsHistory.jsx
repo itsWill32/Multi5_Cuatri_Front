@@ -1,23 +1,24 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import Foro from "../../components/Foro/Foro";
 import { FaAddressCard } from "react-icons/fa";
-import "./ForoHistory.css";
+import Patients from "../../components/Patients/Patients";
+import './PatientsHistory.css';
 
-export default function ForoHistory() {
+
+export default function PatientsHistory() {
   return (
     <>
       <Navbar />
 
-      <div className="main-FH">
-        <div className="seccion-FH">
+      <div className="main-PH">
+        <div className="seccion-PH">
           <span>
             <FaAddressCard />
           </span>
-          <p>Foro</p>
+          <p>Pacientes</p>
         </div>
 
-        <Foro />
+        <Patients />
       </div>
     </>
   );

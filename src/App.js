@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home/Home';
 import Register from './pages/register/Register';
 import NotFound from './pages/NotFound/NotFound';
-import Menu from './components/MenuTablas/Menu';
+import Patients from './pages/PatientsHistory/PatientsHistory';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Route path="/" element={<Login/>} />
       <Route path="/Home" element={<Home/>} />
       <Route path="/Register" element={<Register/>} />
-      <Route path="/Menu" element={<Menu/>} />
+      <Route path='/Patients' element={<Patients/>} />
       <Route path='*' element={<NotFound/>}/>
     </Routes>
   </BrowserRouter>
