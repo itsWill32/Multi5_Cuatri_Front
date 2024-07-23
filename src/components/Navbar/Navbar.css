@@ -1,0 +1,50 @@
+.Nav-main{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 18vh;
+}
+
+.info-Nav{
+    display: flex;
+    width: 75%;
+    height: 10vh;
+    gap: 20px;
+}
+
+.logo-Nav{
+    width: 200px;
+    height: auto;
+    margin-top: -60px;
+}
+
+.date-Nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-left: 50px;
+}
+
+.icon-Date{
+    font-size: 34px;
+}
+
+.date-Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons-Nav{
+    width: 25%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    gap: 20px;
+    margin-left: 10%;
+}

@@ -1,7 +1,24 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../../components/Navbar/Navbar';
+import MenuTabs from '../../components/MenuTablas/Menu'
 
-export default function Home() {
+import './Home.css';
+
+
+
+
+export default function Home() {  
+
   return (
-    <div>Home</div>
+
+    
+    <>
+    <Navbar />
+
+    <div className="main-Home">
+    <MenuTabs />
+    </div>
+
+    </>
   )
 }

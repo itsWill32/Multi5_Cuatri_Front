@@ -1,0 +1,28 @@
+.tabs-Container{
+    width: 45%;
+    height: 8vh;
+}
+
+.tab-Wait, .tab-Cancels, .tab-History {
+    width: 20%;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #0A7AA6;
+    position: relative;
+}
+
+.tab-Wait .icon, .tab-History .icon, .tab-Cancels .icon {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    margin: 4px;
+    font-size: 20px;
+}
+
+.tab-Wait .icon{
+    font-size: 15px;
+    top: 2px;
+    margin: 6px;
+}
