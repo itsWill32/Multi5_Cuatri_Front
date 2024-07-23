@@ -1,5 +1,19 @@
 .main-Home{
     width: 80%;
     height: auto;
-    margin-left: 10%;
+    margin-left: 15%;
 }
+
+.seccion-Home{
+    width: 10%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 15px ;
+    border-top-left-radius: 15px;
+    color: #0A7AA6;
+    margin-bottom: 1.5%;
+    margin-left: -3%;
+}   

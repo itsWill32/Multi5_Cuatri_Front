@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import Register from './pages/register/Register';
 import NotFound from './pages/NotFound/NotFound';
 import Patients from './pages/PatientsHistory/PatientsHistory';
+import AddCita from './pages/AddCita/AddCita';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/Home" element={<Home/>} />
       <Route path="/Register" element={<Register/>} />
       <Route path='/Patients' element={<Patients/>} />
+      <Route path='/AddCita' element={<AddCita/>} />
       <Route path='*' element={<NotFound/>}/>
     </Routes>
   </BrowserRouter>

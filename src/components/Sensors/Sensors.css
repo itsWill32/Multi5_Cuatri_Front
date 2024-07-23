@@ -1,0 +1,33 @@
+.main-sensors {
+    width: 90%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Corregido */
+    display: flex;
+    justify-content: space-around;
+    color: #0A7AA6;
+    margin-left: -3%;
+    margin-top: -2%;
+}
+
+.main-sensors span {
+    font-size: 3rem;
+}
+
+.temperature,
+.oxygenation,
+.heartRate {
+    width: 33%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.temperature p,
+.oxygenation p,
+.heartRate p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
