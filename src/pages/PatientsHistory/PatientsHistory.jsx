@@ -1,9 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import { FaAddressCard } from "react-icons/fa";
-import Patients from "../../components/Patients/Patients";
-import './PatientsHistory.css';
-
+import "./PatientsHistory.css";
+import Menu from "../../components/MenuTablas/Menu";
 
 export default function PatientsHistory() {
   return (
@@ -11,14 +9,7 @@ export default function PatientsHistory() {
       <Navbar />
 
       <div className="main-PH">
-        <div className="seccion-PH">
-          <span>
-            <FaAddressCard />
-          </span>
-          <p>Pacientes</p>
-        </div>
-
-        <Patients />
+        <Menu />
       </div>
     </>
   );

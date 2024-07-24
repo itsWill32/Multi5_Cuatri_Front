@@ -69,7 +69,7 @@ export default function Patients() {
 
   return (
     <>
-      <div >
+      <div className="main-Pat" >
         <TableContainer
           component={Paper}
           sx={{

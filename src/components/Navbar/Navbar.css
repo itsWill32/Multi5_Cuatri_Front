@@ -1,4 +1,6 @@
-.Nav-main{
+/* Navbar.css */
+
+.Nav-main {
     width: 100%;
     height: 10vh;
     display: flex;
@@ -8,20 +10,20 @@
     margin-bottom: 18vh;
 }
 
-.info-Nav{
+.info-Nav {
     display: flex;
     width: 75%;
     height: 10vh;
     gap: 20px;
 }
 
-.logo-Nav{
+.logo-Nav {
     width: 200px;
     height: auto;
     margin-top: -60px;
 }
 
-.date-Nav{
+.date-Nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -29,22 +31,30 @@
     margin-left: 50px;
 }
 
-.icon-Date{
+.icon-Date {
     font-size: 34px;
 }
 
-.date-Text{
+.date-Text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.icons-Nav{
+.icons-Nav {
     width: 25%;
     height: 10vh;
     display: flex;
     align-items: center;
-    font-size: 45px;
     gap: 20px;
     margin-left: 10%;
+}
+
+.icons-Nav a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+.icon-Patient{
+    font-size: 35px;
 }
