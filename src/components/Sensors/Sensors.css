@@ -31,3 +31,43 @@
     font-size: 1.5rem;
     margin: 1rem 0;
 }
+
+.save-data{
+    margin-left: 35%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%; 
+    display: flex;
+    gap: 5%;  
+}
+
+
+.input-id{
+        border: 1px solid black;
+        outline: none;
+        font-size: 16px;
+        color: #333;
+        background: none;
+        border-radius: 15px;
+}
+      
+      .input-id::placeholder {
+        color: #b0b0b0;
+      }
+      
+      .input-id:focus::placeholder {
+        color: transparent;
+      }
+
+
+
+.button-save{
+        background: #0A7AA6;
+        border-radius: 25px;
+        border: none;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        color: white;
+        width: 10%;
+        height: 3.5vh;
+        
+      
+}

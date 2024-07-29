@@ -37,6 +37,13 @@ export default function Canceladas() {
       cita: "11:00 AM",
       fecha: "16/07",
     },
+    {
+      id: 3,
+      nombre: "José Carrasco",
+      contacto: "971 161 3927",
+      cita: "11:00 AM",
+      fecha: "16/07",
+    },
   ];
 
   const [anchorEl, setAnchorEl] = useState(null);
